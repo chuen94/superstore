@@ -1,0 +1,16 @@
+sources:
+  - name: raw_data
+    description: "Raw Superstore data ingested from Excel sheets into Snowflake"
+    database: ANALYTICS_PROJ
+    schema: RAW_DATA
+    tables:
+      - name: ORDERS_RAW
+        description: "Transaction level data for all customer orders"
+        columns:
+          - name: '"Order ID"'
+            tests:
+              - not_null
+      - name: RETURNS_RAW
+        description: "List of order IDs that were returned"
+      - name: PEOPLE_RAW
+        description: "Mapping of regional managers to their specific regions"
