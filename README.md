@@ -1,7 +1,7 @@
 # Superstore Analytics: dbt & Snowflake Pipeline
 
 ## Project Overview
-This project transforms raw transactional data from the Global Superstore dataset into a governed, tested, and high-performance analytics layer. Built using **dbt Cloud** and **Snowflake**, the architecture follows the **Medallion (Bronze/Gold)** methodology to ensure data quality and reusability.
+This project transforms raw transactional data from the Global Superstore dataset into a governed, tested, and high-performance analytics layer. Built using **dbt Cloud** and **Snowflake**, the architecture follows the **Medallion** methodology to ensure data quality and reusability.
 
 ## Technical Stack
 - **Data Warehouse:** Snowflake
